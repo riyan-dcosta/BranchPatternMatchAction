@@ -1,0 +1,28 @@
+{
+  "name": "branch-match",
+  "version": "1.0.0",
+  "description": "match checkout branch with input field",
+  "main": "lib/branch-match.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/riyan-dcosta/BranchPatternMatchAction.git"
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "branch-match"
+  ],
+  "author": "Riyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riyan-dcosta/BranchPatternMatchAction/issues"
+  },
+  "homepage": "https://github.com/riyan-dcosta/BranchPatternMatchAction#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0"
+  }
+}
